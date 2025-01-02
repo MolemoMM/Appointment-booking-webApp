@@ -55,6 +55,7 @@ import book from './book.png'
 import hair2 from './hair2.svg'
 import bridal_look from './bridal_look.jpg'
 import tint_lamination from './tint_lamination.jpg'
+import sibongile from './sibongile.jpg'
 
 
 
@@ -75,6 +76,7 @@ export const assets = {
     bridal_hairstyle,
     eyebrow,
     tint_lamination,
+    sibongile,
     makeup2,
     book,
     wig,
