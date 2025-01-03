@@ -56,12 +56,14 @@ import hair2 from './hair2.svg'
 import bridal_look from './bridal_look.jpg'
 import tint_lamination from './tint_lamination.jpg'
 import sibongile from './sibongile.jpg'
+import appointment_icon from './appointment_icon.svg'
 
 
 
 
 export const assets = {
     appointment_img,
+    appointment_icon,
     header_img,
     group_profiles,
     S,
@@ -139,7 +141,12 @@ export const service = [
         image: dramatic,
         Service: 'Make-Up',
         duration: '3-4 hours',
+        about: 'Please note a depoit fee of 50% is required to secure your booking. The deposit fee is non-refundable.',
         price: 'R550',
+        address: {
+            line1: 'Nomarl Pricing applies if the client comes to me',
+            line2: 'Additional fee will be charged for a call out'
+        }
     },
     {
         _id: 'Make-Up',
@@ -147,7 +154,12 @@ export const service = [
         image: natural_makeup,
         Service: 'Make-Up',
         duration: '2-3 hours',
+        about: 'Please note a depoit fee of 50% is required to secure your booking. The deposit fee is non-refundable.',
         price: 'R500',
+        address: {
+              line1: 'Nomarl Pricing applies if the client comes to me',
+            line2: 'Additional fee will be charged for a call out'
+        }
     },
     {
         _id: 'Hair Installation',
@@ -155,10 +167,11 @@ export const service = [
         image: bridal_hairstyle,
         Service: 'Hair Installation',
         duration: '1-2 hours',
+        about: 'Please note a depoit fee of 50% is required to secure your booking. The deposit fee is non-refundable.',
         price: 'R550-R650',
         address: {
-            line1: '37th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: 'Nomarl Pricing applies if the client comes to me',
+            line2: 'Additional fee will be charged for a call out'
         }
     },
     {
@@ -167,7 +180,12 @@ export const service = [
         image: bridal,
         Service: 'Make-Up',
         duration: '3-4 hours',
+        about: 'Please note a depoit fee of 50% is required to secure your booking. The deposit fee is non-refundable.',
         price: 'R550',
+        address: {
+              line1: 'Nomarl Pricing applies if the client comes to me',
+            line2: 'Additional fee will be charged for a call out'
+        }
     },
     {
         _id: 'EyeBrows',
@@ -175,10 +193,11 @@ export const service = [
         image: eyebrow,
         Service: 'Eyebrows',
         duration: '2-3 hours',
+        about: 'Please note a depoit fee of 50% is required to secure your booking. The deposit fee is non-refundable.',
         price: 'R950',
         address: {
-            line1: '57th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+               line1: 'Nomarl Pricing applies if the client comes to me',
+            line2: 'Additional fee will be charged for a call out'
         }
     },
     {
@@ -187,10 +206,11 @@ export const service = [
         image: lashes2,
         Service: 'Eyelashes',
         duration: '1-2 hours',
+        about: 'Please note a depoit fee of 50% is required to secure your booking. The deposit fee is non-refundable.',
         price: 'R200',
         address: {
-            line1: '57th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+              line1: 'Nomarl Pricing applies if the client comes to me',
+            line2: 'Additional fee will be charged for a call out'
         }
     },
     {
@@ -199,7 +219,12 @@ export const service = [
         image: basic_installation,
         Service: 'Hair Installation',
         duration: '1-2 hours',
+        about: 'Please note a depoit fee of 50% is required to secure your booking. The deposit fee is non-refundable.',
         price: 'R350',
+        address: {
+             line1: 'Nomarl Pricing applies if the client comes to me',
+            line2: 'Additional fee will be charged for a call out'
+        }
     },
     {
         _id: 'Eyebrows',
@@ -207,7 +232,12 @@ export const service = [
         image: tint_lamination,
         Service: 'Eyebrows',
         duration: '1-1.5 hours',
+        about: 'Please note a depoit fee of 50% is required to secure your booking. The deposit fee is non-refundable.',
         price: '300',
+        address: {
+             line1: 'Nomarl Pricing applies if the client comes to me',
+            line2: 'Additional fee will be charged for a call out'
+        }
     },
     {
         _id: 'Make-Up',
@@ -215,7 +245,12 @@ export const service = [
         image: bridal_look,
         Service: 'Make-Up',
         duration: '3-4 hours',
+        about: 'Please note a depoit fee of 50% is required to secure your booking. The deposit fee is non-refundable.',
         price: 'R650',
+        address: {
+            line1: 'Nomarl Pricing applies if the client comes to me',
+            line2: 'Additional fee will be charged for a call out'
+        }
     },
     {
         _id: 'doc10',
@@ -227,8 +262,8 @@ export const service = [
         about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
         fees: 40,
         address: {
-            line1: '47th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+               line1: 'Nomarl Pricing applies if the client comes to me',
+            line2: 'Additional fee will be charged for a call out'
         }
     },
     {
@@ -241,8 +276,8 @@ export const service = [
         about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
         fees: 50,
         address: {
-            line1: '57th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+              line1: 'Nomarl Pricing applies if the client comes to me',
+            line2: 'Additional fee will be charged for a call out'
         }
     },
     {
@@ -252,7 +287,7 @@ export const service = [
         speciality: 'Neurologist',
         degree: 'MBBS',
         experience: '4 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+        about: 'Please note a depoit fee of 50% is required to secure your booking. The deposit fee is non-refundable.',
         fees: 50,
         address: {
             line1: '57th Cross, Richmond',
